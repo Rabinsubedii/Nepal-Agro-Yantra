@@ -1,0 +1,1233 @@
+
+/* navabr */
+.logo {
+    height: 60px;
+    position: relative;
+    bottom: 0px;
+}
+
+.main-logo {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+}
+
+nav.scrolled {
+    position: absolute;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+    position: relative;
+    bottom: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin-right: 30px;
+    text-transform: uppercase;
+
+}
+
+.search-input {
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    height: 30px;
+    position: relative;
+    bottom: 0px;
+}
+
+.search-input:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+/* //carousel */
+.carousel-item {
+    background-color: #000;
+}
+
+.carousel-item img {
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    bottom: 190px;
+}
+
+#main-heading,
+#sub-heading {
+    text-align: left;
+    position: relative;
+    right: 100px;
+}
+
+#main-heading {
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#sub-heading {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.learn-more-btn {
+    position: relative;
+    right: 100px;
+    background-color: #39A84A;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    float: left;
+}
+
+/*  card */
+#locals,
+#layers,
+#broilers {
+    position: relative;
+    bottom: 140px;
+}
+
+.first-card-body {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.first-card-body .card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.first-card-body .card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.card-logo {
+    background-color: #39A84A;
+    height: 90px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.broiler-img {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+/* service section */
+.service {
+    position: relative;
+    bottom: 80px;
+}
+
+#service-card {
+    min-height: 60vh;
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.service-caption {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#service-heading {
+    color: #39A84A;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#service-text {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#view-all-link {
+    color: #ED6922;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+}
+
+#service-card-row {
+    margin-top: 60px;
+}
+
+#service-card {
+    background-color: #39A84A;
+}
+
+
+.service-image {
+    height: 90px;
+}
+
+#service-content {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+#service-title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* product section */
+.product {
+    position: relative;
+
+}
+
+
+.product-caption {
+    text-align: center;
+
+}
+
+#product-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#product-head {
+    color: #39A84A;
+}
+
+.bg-img {
+    width: 75%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+
+#product-sub-caption {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-img {
+    width: 100px;
+}
+
+#product-title {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+#product-text {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+}
+#product-card {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 35vh;
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+
+/* About */
+.about-section {
+    margin-top: 40px;
+}
+
+.about-caption {
+    text-align: center;
+}
+
+#about-us-head {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #39A84A;
+}
+
+#sub-head {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#about-description {
+    font-weight: 1.5rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* contact section */
+.contact-section {
+    margin-top: 60px;
+}
+
+.contact-caption {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#contact-head {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #39A84A;
+}
+
+#contact-sub-head {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.contact-form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 284px;
+    width: 600px;
+}
+
+.send-message-butoon {
+    background-color: #39A84A;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    float: right;
+    color: #fff;
+}
+
+.send-message-butoon:hover {
+    color: #fff;
+}
+
+/* footer */
+footer {
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: #39A84A;
+}
+
+.footer-head p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 12px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.footer-img {
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-another-headings {
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.related-link {
+    overflow: hidden;
+    position: relative;
+    left: 137px;
+}
+
+.related-link p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 260px;
+}
+
+.footer-list-item li a {
+    color: white;
+    padding: 0px;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+.footer-list-item li {
+    list-style: none;
+    padding: 0px;
+    margin-top: 15px;
+    color: white;
+}
+
+
+.sub-footer {
+    background-color: #ED6922;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    overflow: hidden;
+    height: 40px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sub-footer p {
+    text-align: center;
+    margin-top: 12px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+
+/* ----------------------------------------------------service page-------------------------------------------------------- */
+
+#secondnavabr {
+    background-color: rgb(255, 255, 255);
+    white-space: 1px;
+}
+
+
+.service-head-image {
+    background-color: black;
+    position: absolute;
+}
+
+.service-head-image img {
+    opacity: 0.5;
+}
+
+.service-head-image {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service-page-title {
+    position: relative;
+    z-index: 100;
+}
+
+#service-page-head {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+#service-page-subhead {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 2px;
+}
+
+.services-page-section {
+    position: relative;
+}
+
+.ser-img {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+
+.our-teams {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 60px;
+
+}
+
+#title-team {
+    color: #39A84A;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.our-teams h4 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#team-description {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.all-services {
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.all-services p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.question-header {
+    margin-top: 40px;
+}
+
+.question-header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.btn-question-ask {
+    background-color: #F5F5F5;
+    width: 500px;
+    margin-top: 30px;
+    border: 1px solid #39A84A;
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.down-arrow {
+    height: 25px;
+    float: right;
+}
+
+/* -------------------------------------------------product page--------------------------------------------------------- */
+#prodcut-page {
+    margin-top: 90px;
+}
+
+.read-more {
+    color: #ED6922;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: 1rem;
+    float: right;
+    text-decoration: none;
+    display: -webkit-box;
+
+}
+
+/*----------------------------------------------- photo gallery section--------------------------------------------------- */
+.photo-section {
+    margin-top: 70px;
+}
+
+#gallery-specifi-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+#gallery-photo-card {
+    margin-top: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*------------------------------------------------------------- login register------------------------------------------------- */
+#tabs-section {
+    margin-top: 40px;
+}
+
+.login-card {
+    width: 100%;
+    border: none;
+}
+
+.btr {
+    border-top-right-radius: 5px !important;
+    background-color: red;
+}
+
+.btl {
+    border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #39A84A;
+    border-color: #39A84A;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #39A84A;
+    border-color: #39A84A;
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ED6922;
+}
+
+#pills-tab,
+#pills-home-tab {
+    border-radius: 0px;
+    color: #fff;
+    border-bottom: 1px solid #0d6efd40;
+}
+
+#nav-menu-tab {
+    display: table-cell;
+    background: #39A84A;
+    color: #fff;
+}
+
+.login-form {
+    padding: 10px;
+    height: 300px;
+}
+
+.login-form input {
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.login-form input:focus {
+    box-shadow: none;
+}
+
+.login-form button {
+    margin-top: 20px;
+}
+
+.loginpage-title {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#hello-text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#nay-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#form-section {
+    position: relative;
+    left: 100px
+}
+
+.login-title p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.acc,
+.login {
+    color: #39A84A;
+}
+
+.register-title {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.already-have-account {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    justify-content: center;
+    font-size: 1rem;
+    position: relative;
+    left: 80px;
+    font-weight: 500;
+}
+
+.already-have-account:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.forgot-password {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    justify-content: center;
+    font-size: 1rem;
+    position: relative;
+    left: 40%;
+    font-weight: 500;
+}
+
+/*----------------------------------------- reset password------------------------------ */
+.title-reset-password p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.login-reg-whole {
+    margin-top: 30px;
+}
+
+.reset-btn {
+    background-color: #39A84A;
+    color: #fff;
+}
+
+.reset-btn:hover {
+    color: #fff;
+}
+
+.rest-input {
+    width: 500px;
+}
+
+.reset-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+}
+
+/* ----------------------------------------------------.product description-------------------------------------- */
+.product-description-section {
+    margin-top: 90px;
+}
+
+
+.description-image a img {
+    object-fit: cover;
+    height: 470px;
+    width: 100%;
+}
+
+.suggest-button {
+    background-color: #39A84A;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.suggest-button:hover {
+    color: #fff;
+}
+
+.text-description-product {
+    margin-top: 30px;
+}
+
+.text-description-product p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.product-de-images {
+    margin-top: 30px;
+}
+
+.produt-desc-img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.product-benefits {
+    margin-top: 30px;
+}
+
+.benefits-title p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.check-icon {
+    height: 28px;
+    margin: 10px;
+}
+
+#benefits-text {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#album-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    padding: 5px;
+}
+#total-img {
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    float: left;
+    margin:10px;
+
+}
+/* ------------------------------------------------------responsive css------------------------------------ */
+/* all mobile device */
+@media (max-width: 600px) {
+    nav {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background: #ffffff;
+    }
+
+
+    .toggle-image {
+        height: 40px;
+        position: relative;
+        margin-bottom: 6px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #000;
+    }
+
+    .search-input {
+        background-color: transparent;
+        color: #fff;
+        font-size: 15px;
+        height: 30px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .carousel-slide {
+        display: none
+    }
+
+    .carousel-item img {
+        width: 100%;
+        opacity: 0.4;
+    }
+
+    .mapouter {
+        display: none;
+    }
+
+    #locals,
+    #layers,
+    #broilers {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .service {
+        position: relative;
+        margin-top: 240px;
+    }
+
+    #view-all-link {
+        display: none;
+    }
+
+    #service-card {
+        min-height: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 20px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    #service-text {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    #service-card-row {
+        margin-top: 0px;
+    }
+
+    .btn-question-ask {
+        background-color: #F5F5F5;
+        width: 100%;
+        margin-top: 30px;
+        border: 1px solid #39A84A;
+        text-align: left;
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+    }
+
+    .product {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    #product-sub-caption {
+        font-weight: 500;
+        font-size: 0.8rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #product-card {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    #product-heading {
+        font-weight: 600;
+        font-size: 1.5rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #sub-head {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    #img-col,
+    #map-col,
+    .card-section {
+        display: none;
+    }
+
+    #about-desctiption {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-form {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+        padding: 25px;
+        position: relative;
+        left: 0px;
+        margin: 10px;
+    }
+
+    #contact-sub-head {
+        font-size: 1rem;
+        font-weight: 600;
+
+    }
+
+    footer {
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .links {
+        position: relative;
+        left: 0px;
+    }
+
+    #service-page-head {
+        color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    #service-page-subhead {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 2px;
+    }
+
+    .services-page-section {
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .our-teams h4 {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    #team-description {
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+
+    #form-section {
+        position: relative;
+        left: 0px;
+    }
+
+    .login-reg-whole {
+        margin-top: 0px;
+    }
+
+    .reset-card {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    .rest-input {
+        width: auto;
+    }
+
+    .title-reset-password p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .related-link,
+    .import-link {
+        overflow: hidden;
+        position: relative;
+        left: 0px;
+        margin-top: 30px;
+
+    }
+
+    .footer-img {
+        height: 100px;
+        position: relative;
+        bottom: 0px;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 1.0) {
+    .toggle-image {
+        height: 40px;
+        position: relative;
+        margin-bottom: 65px;
+    }
+
+    nav {
+        background-color: #39A84A;
+    }
+
+    .carousel-caption {
+        bottom: 150px;
+    }
+
+    #carouselExampleCaptions {
+        margin-top: 100px;
+    }
+
+    #main-heading {
+        font-size: 1em;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #sub-heading {
+        font-size: 0.5rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }
+
+    #locals,
+    #layers,
+    #broilers {
+        position: relative;
+        bottom: 140px;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .card-logo {
+        background-color: #39A84A;
+        height: 100px;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+
+    .broiler-img {
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        color: red;
+    }
+
+    #service-card {
+        background-color: #39A84A;
+        min-height: 30vh;
+    }
+
+    .suggest-button {
+        background-color: #39A84A;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 0.5rem;
+        text-align: center;
+        color: #fff;
+    }
+
+    .check-icon {
+        height: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    #benefits-text {
+        font-size: 1.2rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    #product-title {
+        text-align: left;
+        font-size: 0.8rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+
+    #product-text {
+        font-size: 0.5rem;
+        text-align: justify;
+        font-family: 'Quicksand', sans-serif;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+
+    }
+
+    .contact-section {
+        margin-top: 0px;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 300px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 284px;
+        width: 300px;
+    }
+
+    .links {
+        position: relative;
+        left: 0px;
+    }
+
+}
+.product-page{
+    background-color: rebeccapurple;
+}

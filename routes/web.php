@@ -16,6 +16,7 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\FooterMenuController;
 use App\Http\Controllers\LoginRegisterController;
 use App\Http\Controllers\AlbumController;
+use App\Http\Controllers\TestController;
 use App\Http\Controllers\Controller;
 
 /*
@@ -35,6 +36,10 @@ use App\Http\Controllers\Controller;
    Route::get('/',[FrontednController::class,'index']);
 
    //public routes
+   Route::get('test',[TestController::class,'create']);
+   Route::post('test',[TestController::class,'store']);
+
+
    //contact
     Route::get('contact',[ContactController::class,'index']);
     Route::post('add',[ContactController::class,'add']);
